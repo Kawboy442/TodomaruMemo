@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0BA9F65239BD6190023B657 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BA9F64239BD6190023B657 /* AppDelegate.swift */; };
+		E0BA9F67239BD6190023B657 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BA9F66239BD6190023B657 /* SceneDelegate.swift */; };
+		E0BA9F69239BD6190023B657 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BA9F68239BD6190023B657 /* ViewController.swift */; };
+		E0BA9F6C239BD6190023B657 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0BA9F6A239BD6190023B657 /* Main.storyboard */; };
+		E0BA9F6E239BD61E0023B657 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0BA9F6D239BD61E0023B657 /* Assets.xcassets */; };
+		E0BA9F71239BD61E0023B657 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0BA9F6F239BD61E0023B657 /* LaunchScreen.storyboard */; };
+		E0BA9F7C239BD61E0023B657 /* TodomaruMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BA9F7B239BD61E0023B657 /* TodomaruMemoTests.swift */; };
+		E0BA9F87239BD61E0023B657 /* TodomaruMemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BA9F86239BD61E0023B657 /* TodomaruMemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0BA9F78239BD61E0023B657 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0BA9F59239BD6190023B657 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0BA9F60239BD6190023B657;
+			remoteInfo = TodomaruMemo;
+		};
+		E0BA9F83239BD61E0023B657 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0BA9F59239BD6190023B657 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0BA9F60239BD6190023B657;
+			remoteInfo = TodomaruMemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E0BA9F61239BD6190023B657 /* TodomaruMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodomaruMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0BA9F64239BD6190023B657 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E0BA9F66239BD6190023B657 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E0BA9F68239BD6190023B657 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E0BA9F6B239BD6190023B657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0BA9F6D239BD61E0023B657 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0BA9F70239BD61E0023B657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0BA9F72239BD61E0023B657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0BA9F77239BD61E0023B657 /* TodomaruMemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodomaruMemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0BA9F7B239BD61E0023B657 /* TodomaruMemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodomaruMemoTests.swift; sourceTree = "<group>"; };
+		E0BA9F7D239BD61E0023B657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0BA9F82239BD61E0023B657 /* TodomaruMemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodomaruMemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0BA9F86239BD61E0023B657 /* TodomaruMemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodomaruMemoUITests.swift; sourceTree = "<group>"; };
+		E0BA9F88239BD61E0023B657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0BA9F5E239BD6190023B657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0BA9F74239BD61E0023B657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0BA9F7F239BD61E0023B657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0BA9F58239BD6190023B657 = {
+			isa = PBXGroup;
+			children = (
+				E0BA9F63239BD6190023B657 /* TodomaruMemo */,
+				E0BA9F7A239BD61E0023B657 /* TodomaruMemoTests */,
+				E0BA9F85239BD61E0023B657 /* TodomaruMemoUITests */,
+				E0BA9F62239BD6190023B657 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0BA9F62239BD6190023B657 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0BA9F61239BD6190023B657 /* TodomaruMemo.app */,
+				E0BA9F77239BD61E0023B657 /* TodomaruMemoTests.xctest */,
+				E0BA9F82239BD61E0023B657 /* TodomaruMemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0BA9F63239BD6190023B657 /* TodomaruMemo */ = {
+			isa = PBXGroup;
+			children = (
+				E0BA9F64239BD6190023B657 /* AppDelegate.swift */,
+				E0BA9F66239BD6190023B657 /* SceneDelegate.swift */,
+				E0BA9F68239BD6190023B657 /* ViewController.swift */,
+				E0BA9F6A239BD6190023B657 /* Main.storyboard */,
+				E0BA9F6D239BD61E0023B657 /* Assets.xcassets */,
+				E0BA9F6F239BD61E0023B657 /* LaunchScreen.storyboard */,
+				E0BA9F72239BD61E0023B657 /* Info.plist */,
+			);
+			path = TodomaruMemo;
+			sourceTree = "<group>";
+		};
+		E0BA9F7A239BD61E0023B657 /* TodomaruMemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0BA9F7B239BD61E0023B657 /* TodomaruMemoTests.swift */,
+				E0BA9F7D239BD61E0023B657 /* Info.plist */,
+			);
+			path = TodomaruMemoTests;
+			sourceTree = "<group>";
+		};
+		E0BA9F85239BD61E0023B657 /* TodomaruMemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E0BA9F86239BD61E0023B657 /* TodomaruMemoUITests.swift */,
+				E0BA9F88239BD61E0023B657 /* Info.plist */,
+			);
+			path = TodomaruMemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0BA9F60239BD6190023B657 /* TodomaruMemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0BA9F8B239BD61E0023B657 /* Build configuration list for PBXNativeTarget "TodomaruMemo" */;
+			buildPhases = (
+				E0BA9F5D239BD6190023B657 /* Sources */,
+				E0BA9F5E239BD6190023B657 /* Frameworks */,
+				E0BA9F5F239BD6190023B657 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TodomaruMemo;
+			productName = TodomaruMemo;
+			productReference = E0BA9F61239BD6190023B657 /* TodomaruMemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0BA9F76239BD61E0023B657 /* TodomaruMemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0BA9F8E239BD61E0023B657 /* Build configuration list for PBXNativeTarget "TodomaruMemoTests" */;
+			buildPhases = (
+				E0BA9F73239BD61E0023B657 /* Sources */,
+				E0BA9F74239BD61E0023B657 /* Frameworks */,
+				E0BA9F75239BD61E0023B657 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0BA9F79239BD61E0023B657 /* PBXTargetDependency */,
+			);
+			name = TodomaruMemoTests;
+			productName = TodomaruMemoTests;
+			productReference = E0BA9F77239BD61E0023B657 /* TodomaruMemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0BA9F81239BD61E0023B657 /* TodomaruMemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0BA9F91239BD61E0023B657 /* Build configuration list for PBXNativeTarget "TodomaruMemoUITests" */;
+			buildPhases = (
+				E0BA9F7E239BD61E0023B657 /* Sources */,
+				E0BA9F7F239BD61E0023B657 /* Frameworks */,
+				E0BA9F80239BD61E0023B657 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0BA9F84239BD61E0023B657 /* PBXTargetDependency */,
+			);
+			name = TodomaruMemoUITests;
+			productName = TodomaruMemoUITests;
+			productReference = E0BA9F82239BD61E0023B657 /* TodomaruMemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0BA9F59239BD6190023B657 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Ryosuke.Ito;
+				TargetAttributes = {
+					E0BA9F60239BD6190023B657 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					E0BA9F76239BD61E0023B657 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = E0BA9F60239BD6190023B657;
+					};
+					E0BA9F81239BD61E0023B657 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = E0BA9F60239BD6190023B657;
+					};
+				};
+			};
+			buildConfigurationList = E0BA9F5C239BD6190023B657 /* Build configuration list for PBXProject "TodomaruMemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0BA9F58239BD6190023B657;
+			productRefGroup = E0BA9F62239BD6190023B657 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0BA9F60239BD6190023B657 /* TodomaruMemo */,
+				E0BA9F76239BD61E0023B657 /* TodomaruMemoTests */,
+				E0BA9F81239BD61E0023B657 /* TodomaruMemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0BA9F5F239BD6190023B657 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0BA9F71239BD61E0023B657 /* LaunchScreen.storyboard in Resources */,
+				E0BA9F6E239BD61E0023B657 /* Assets.xcassets in Resources */,
+				E0BA9F6C239BD6190023B657 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0BA9F75239BD61E0023B657 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0BA9F80239BD61E0023B657 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0BA9F5D239BD6190023B657 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0BA9F69239BD6190023B657 /* ViewController.swift in Sources */,
+				E0BA9F65239BD6190023B657 /* AppDelegate.swift in Sources */,
+				E0BA9F67239BD6190023B657 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0BA9F73239BD61E0023B657 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0BA9F7C239BD61E0023B657 /* TodomaruMemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0BA9F7E239BD61E0023B657 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0BA9F87239BD61E0023B657 /* TodomaruMemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0BA9F79239BD61E0023B657 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0BA9F60239BD6190023B657 /* TodomaruMemo */;
+			targetProxy = E0BA9F78239BD61E0023B657 /* PBXContainerItemProxy */;
+		};
+		E0BA9F84239BD61E0023B657 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0BA9F60239BD6190023B657 /* TodomaruMemo */;
+			targetProxy = E0BA9F83239BD61E0023B657 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E0BA9F6A239BD6190023B657 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0BA9F6B239BD6190023B657 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E0BA9F6F239BD61E0023B657 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0BA9F70239BD61E0023B657 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0BA9F89239BD61E0023B657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0BA9F8A239BD61E0023B657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0BA9F8C239BD61E0023B657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KNDVM72G3P;
+				INFOPLIST_FILE = TodomaruMemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryosukeito.TodomaruMemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0BA9F8D239BD61E0023B657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KNDVM72G3P;
+				INFOPLIST_FILE = TodomaruMemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryosukeito.TodomaruMemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E0BA9F8F239BD61E0023B657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KNDVM72G3P;
+				INFOPLIST_FILE = TodomaruMemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryosukeito.TodomaruMemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodomaruMemo.app/TodomaruMemo";
+			};
+			name = Debug;
+		};
+		E0BA9F90239BD61E0023B657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KNDVM72G3P;
+				INFOPLIST_FILE = TodomaruMemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryosukeito.TodomaruMemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodomaruMemo.app/TodomaruMemo";
+			};
+			name = Release;
+		};
+		E0BA9F92239BD61E0023B657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KNDVM72G3P;
+				INFOPLIST_FILE = TodomaruMemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryosukeito.TodomaruMemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TodomaruMemo;
+			};
+			name = Debug;
+		};
+		E0BA9F93239BD61E0023B657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KNDVM72G3P;
+				INFOPLIST_FILE = TodomaruMemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryosukeito.TodomaruMemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TodomaruMemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0BA9F5C239BD6190023B657 /* Build configuration list for PBXProject "TodomaruMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0BA9F89239BD61E0023B657 /* Debug */,
+				E0BA9F8A239BD61E0023B657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0BA9F8B239BD61E0023B657 /* Build configuration list for PBXNativeTarget "TodomaruMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0BA9F8C239BD61E0023B657 /* Debug */,
+				E0BA9F8D239BD61E0023B657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0BA9F8E239BD61E0023B657 /* Build configuration list for PBXNativeTarget "TodomaruMemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0BA9F8F239BD61E0023B657 /* Debug */,
+				E0BA9F90239BD61E0023B657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0BA9F91239BD61E0023B657 /* Build configuration list for PBXNativeTarget "TodomaruMemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0BA9F92239BD61E0023B657 /* Debug */,
+				E0BA9F93239BD61E0023B657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0BA9F59239BD6190023B657 /* Project object */;
+}
