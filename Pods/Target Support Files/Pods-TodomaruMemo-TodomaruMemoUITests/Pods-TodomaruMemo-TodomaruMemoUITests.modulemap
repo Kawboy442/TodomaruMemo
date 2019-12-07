@@ -1,0 +1,6 @@
+framework module Pods_TodomaruMemo_TodomaruMemoUITests {
+  umbrella header "Pods-TodomaruMemo-TodomaruMemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

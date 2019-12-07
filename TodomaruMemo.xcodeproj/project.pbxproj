@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1FC6C4825251BFB8052C393 /* Pods_TodomaruMemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C997D106B4E19B428ECCA6 /* Pods_TodomaruMemoTests.framework */; };
+		C9F07A362DA65509AC66D18B /* Pods_TodomaruMemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002EBF4AA2C0BA95CE4191D5 /* Pods_TodomaruMemo.framework */; };
 		E0BA9F65239BD6190023B657 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BA9F64239BD6190023B657 /* AppDelegate.swift */; };
 		E0BA9F67239BD6190023B657 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BA9F66239BD6190023B657 /* SceneDelegate.swift */; };
 		E0BA9F69239BD6190023B657 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BA9F68239BD6190023B657 /* ViewController.swift */; };
@@ -15,6 +17,7 @@
 		E0BA9F71239BD61E0023B657 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0BA9F6F239BD61E0023B657 /* LaunchScreen.storyboard */; };
 		E0BA9F7C239BD61E0023B657 /* TodomaruMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BA9F7B239BD61E0023B657 /* TodomaruMemoTests.swift */; };
 		E0BA9F87239BD61E0023B657 /* TodomaruMemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BA9F86239BD61E0023B657 /* TodomaruMemoUITests.swift */; };
+		E48F87626148A04C7370834A /* Pods_TodomaruMemo_TodomaruMemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E94075F7AB55FFEE2BCE6F /* Pods_TodomaruMemo_TodomaruMemoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		002EBF4AA2C0BA95CE4191D5 /* Pods_TodomaruMemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodomaruMemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		047C73E2AAA85A93DF649BD8 /* Pods-TodomaruMemo-TodomaruMemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodomaruMemo-TodomaruMemoUITests.release.xcconfig"; path = "Target Support Files/Pods-TodomaruMemo-TodomaruMemoUITests/Pods-TodomaruMemo-TodomaruMemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		93C997D106B4E19B428ECCA6 /* Pods_TodomaruMemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodomaruMemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A165235D1940D2ED4163EB6F /* Pods-TodomaruMemo-TodomaruMemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodomaruMemo-TodomaruMemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-TodomaruMemo-TodomaruMemoUITests/Pods-TodomaruMemo-TodomaruMemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6D17F0276EF0EEB05640DD5 /* Pods-TodomaruMemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodomaruMemo.release.xcconfig"; path = "Target Support Files/Pods-TodomaruMemo/Pods-TodomaruMemo.release.xcconfig"; sourceTree = "<group>"; };
+		CBDEA5890042DC6608C5BBE3 /* Pods-TodomaruMemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodomaruMemoTests.release.xcconfig"; path = "Target Support Files/Pods-TodomaruMemoTests/Pods-TodomaruMemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		E0BA9F61239BD6190023B657 /* TodomaruMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodomaruMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0BA9F64239BD6190023B657 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0BA9F66239BD6190023B657 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		E0BA9F82239BD61E0023B657 /* TodomaruMemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodomaruMemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0BA9F86239BD61E0023B657 /* TodomaruMemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodomaruMemoUITests.swift; sourceTree = "<group>"; };
 		E0BA9F88239BD61E0023B657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E208B7F4DFE26F35CA19054F /* Pods-TodomaruMemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodomaruMemoTests.debug.xcconfig"; path = "Target Support Files/Pods-TodomaruMemoTests/Pods-TodomaruMemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5E94075F7AB55FFEE2BCE6F /* Pods_TodomaruMemo_TodomaruMemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodomaruMemo_TodomaruMemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED361B5EA1FD91AD0E51001B /* Pods-TodomaruMemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodomaruMemo.debug.xcconfig"; path = "Target Support Files/Pods-TodomaruMemo/Pods-TodomaruMemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9F07A362DA65509AC66D18B /* Pods_TodomaruMemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1FC6C4825251BFB8052C393 /* Pods_TodomaruMemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E48F87626148A04C7370834A /* Pods_TodomaruMemo_TodomaruMemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D6AA779208131378A7B0F07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED361B5EA1FD91AD0E51001B /* Pods-TodomaruMemo.debug.xcconfig */,
+				A6D17F0276EF0EEB05640DD5 /* Pods-TodomaruMemo.release.xcconfig */,
+				A165235D1940D2ED4163EB6F /* Pods-TodomaruMemo-TodomaruMemoUITests.debug.xcconfig */,
+				047C73E2AAA85A93DF649BD8 /* Pods-TodomaruMemo-TodomaruMemoUITests.release.xcconfig */,
+				E208B7F4DFE26F35CA19054F /* Pods-TodomaruMemoTests.debug.xcconfig */,
+				CBDEA5890042DC6608C5BBE3 /* Pods-TodomaruMemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		20F16D85E31BAF702B7509D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				002EBF4AA2C0BA95CE4191D5 /* Pods_TodomaruMemo.framework */,
+				E5E94075F7AB55FFEE2BCE6F /* Pods_TodomaruMemo_TodomaruMemoUITests.framework */,
+				93C997D106B4E19B428ECCA6 /* Pods_TodomaruMemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E0BA9F58239BD6190023B657 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				E0BA9F7A239BD61E0023B657 /* TodomaruMemoTests */,
 				E0BA9F85239BD61E0023B657 /* TodomaruMemoUITests */,
 				E0BA9F62239BD6190023B657 /* Products */,
+				1D6AA779208131378A7B0F07 /* Pods */,
+				20F16D85E31BAF702B7509D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0BA9F8B239BD61E0023B657 /* Build configuration list for PBXNativeTarget "TodomaruMemo" */;
 			buildPhases = (
+				93C1A322F4D4E0D198D3F6F5 /* [CP] Check Pods Manifest.lock */,
 				E0BA9F5D239BD6190023B657 /* Sources */,
 				E0BA9F5E239BD6190023B657 /* Frameworks */,
 				E0BA9F5F239BD6190023B657 /* Resources */,
+				1E48F1D440C434CB248635FD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0BA9F8E239BD61E0023B657 /* Build configuration list for PBXNativeTarget "TodomaruMemoTests" */;
 			buildPhases = (
+				DEC238CEB1F6763B85BB54F8 /* [CP] Check Pods Manifest.lock */,
 				E0BA9F73239BD61E0023B657 /* Sources */,
 				E0BA9F74239BD61E0023B657 /* Frameworks */,
 				E0BA9F75239BD61E0023B657 /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0BA9F91239BD61E0023B657 /* Build configuration list for PBXNativeTarget "TodomaruMemoUITests" */;
 			buildPhases = (
+				B30592365279B9D29B1274DC /* [CP] Check Pods Manifest.lock */,
 				E0BA9F7E239BD61E0023B657 /* Sources */,
 				E0BA9F7F239BD61E0023B657 /* Frameworks */,
 				E0BA9F80239BD61E0023B657 /* Resources */,
+				21FB022B9EE505BAF4510F6E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +299,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E48F1D440C434CB248635FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TodomaruMemo/Pods-TodomaruMemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TodomaruMemo/Pods-TodomaruMemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TodomaruMemo/Pods-TodomaruMemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21FB022B9EE505BAF4510F6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TodomaruMemo-TodomaruMemoUITests/Pods-TodomaruMemo-TodomaruMemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TodomaruMemo-TodomaruMemoUITests/Pods-TodomaruMemo-TodomaruMemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TodomaruMemo-TodomaruMemoUITests/Pods-TodomaruMemo-TodomaruMemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93C1A322F4D4E0D198D3F6F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TodomaruMemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B30592365279B9D29B1274DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TodomaruMemo-TodomaruMemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEC238CEB1F6763B85BB54F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TodomaruMemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E0BA9F5D239BD6190023B657 /* Sources */ = {
@@ -432,6 +581,7 @@
 		};
 		E0BA9F8C239BD61E0023B657 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED361B5EA1FD91AD0E51001B /* Pods-TodomaruMemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +600,7 @@
 		};
 		E0BA9F8D239BD61E0023B657 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6D17F0276EF0EEB05640DD5 /* Pods-TodomaruMemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +619,7 @@
 		};
 		E0BA9F8F239BD61E0023B657 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E208B7F4DFE26F35CA19054F /* Pods-TodomaruMemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +642,7 @@
 		};
 		E0BA9F90239BD61E0023B657 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBDEA5890042DC6608C5BBE3 /* Pods-TodomaruMemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +665,7 @@
 		};
 		E0BA9F92239BD61E0023B657 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A165235D1940D2ED4163EB6F /* Pods-TodomaruMemo-TodomaruMemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +686,7 @@
 		};
 		E0BA9F93239BD61E0023B657 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 047C73E2AAA85A93DF649BD8 /* Pods-TodomaruMemo-TodomaruMemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
