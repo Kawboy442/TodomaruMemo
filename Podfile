@@ -6,7 +6,10 @@ target 'TodomaruMemo' do
   use_frameworks!
 
   # Pods for TodomaruMemo
-
+  pod 'Swinject'
+  pod 'SwinjectStoryboard'
+  pod 'R.swift'
+ 
   target 'TodomaruMemoTests' do
     inherit! :search_paths
     # Pods for testing
